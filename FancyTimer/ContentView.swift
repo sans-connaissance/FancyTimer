@@ -8,8 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+   @ObservedObject var fancyTimer = FancyTimer()
+    
     var body: some View {
-        Text("Hello, world!")
+        Text("\(fancyTimer.value)")
             .padding()
     }
 }
