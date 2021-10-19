@@ -13,6 +13,7 @@
 		41E5A44F271F090800A51D80 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41E5A44E271F090800A51D80 /* Preview Assets.xcassets */; };
 		41E5A456271F097A00A51D80 /* FancyTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E5A455271F097A00A51D80 /* FancyTimer.swift */; };
 		41E5A458271F0B9000A51D80 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E5A457271F0B9000A51D80 /* UserSettings.swift */; };
+		41E5A45A271F134100A51D80 /* FancyScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E5A459271F134100A51D80 /* FancyScoreView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		41E5A44E271F090800A51D80 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		41E5A455271F097A00A51D80 /* FancyTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyTimer.swift; sourceTree = "<group>"; };
 		41E5A457271F0B9000A51D80 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		41E5A459271F134100A51D80 /* FancyScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyScoreView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				41E5A447271F090600A51D80 /* FancyTimerApp.swift */,
 				41E5A457271F0B9000A51D80 /* UserSettings.swift */,
 				41E5A455271F097A00A51D80 /* FancyTimer.swift */,
+				41E5A459271F134100A51D80 /* FancyScoreView.swift */,
 				41E5A449271F090600A51D80 /* ContentView.swift */,
 				41E5A44B271F090800A51D80 /* Assets.xcassets */,
 				41E5A44D271F090800A51D80 /* Preview Content */,
@@ -145,6 +148,7 @@
 			files = (
 				41E5A44A271F090600A51D80 /* ContentView.swift in Sources */,
 				41E5A458271F0B9000A51D80 /* UserSettings.swift in Sources */,
+				41E5A45A271F134100A51D80 /* FancyScoreView.swift in Sources */,
 				41E5A448271F090600A51D80 /* FancyTimerApp.swift in Sources */,
 				41E5A456271F097A00A51D80 /* FancyTimer.swift in Sources */,
 			);

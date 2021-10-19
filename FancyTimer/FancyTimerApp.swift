@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct FancyTimerApp: App {
+    
+    let userSettings = UserSettings()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(userSettings)
         }
     }
 }
